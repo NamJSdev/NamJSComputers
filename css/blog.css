@@ -1,0 +1,19 @@
+:root {
+  --color--blue: #2172bdfb;
+  --color-black: rgba(39, 38, 38, 0.849);
+  --color--white: white;
+  --color--red: red;
+  --color--bgr1: #6db6fa1f;
+  --color--blue2: #14bdef;
+}
+/* end common */
+.blog__content .nav-link {
+  display: block;
+  padding: 0px;
+}
+.blog__content i{
+  color: var(--color-black);
+}
+img{
+  width: 100%;
+}

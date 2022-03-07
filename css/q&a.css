@@ -1,0 +1,44 @@
+:root {
+  --color--blue: #2172bdfb;
+  --color-black: rgba(39, 38, 38, 0.849);
+  --color--white: white;
+  --color--red: red;
+  --color--bgr1: #6db6fa1f;
+  --color--blue2: #14bdef;
+}
+/* end common */
+/* Accordion */
+.accordion{
+  background-color: var(--color--bgr1);
+  margin-top: 30px;
+}
+.accordion > li{
+  list-style: none;
+  border: 0.5px solid #fff;
+  position: relative;
+  cursor: pointer;
+  padding: 10px 10px;
+  padding-right: 50px !important;
+}
+.accordion > li i{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: var(--color-black);
+  font-size: 15pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 12px;
+  right: 1%;
+}
+.accordion__content{
+  border-top: 1px solid;
+  padding: 10px 30px;
+  color: var(--color-black);
+  line-height: 16pt;
+  font-size: 14pt;
+  text-align: justify;
+  max-height: 300px;
+  overflow: auto;
+}

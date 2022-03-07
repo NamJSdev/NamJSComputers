@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Dosis:wght@200&family=Roboto:wght@100&display=swap");
+:root {
+  --color--blue: #2172bdfb;
+  --color-black: rgba(39, 38, 38, 0.849);
+  --color--white: white;
+  --color--red: red;
+  --color--bgr1: #6db6fa1f;
+  --color--blue2: #14bdef;
+}

@@ -1,0 +1,195 @@
+:root {
+  --color--blue: #2172bdfb;
+  --color-black: rgba(39, 38, 38, 0.849);
+  --color--white: white;
+  --color--red: red;
+  --color--bgr1: #6db6fa1f;
+  --color--blue2: #14bdef;
+}
+/* end common */
+/* Slider */
+.slider__first .slide{
+  position: relative;
+}
+.slider__first .btn{
+  position: absolute;
+  z-index: 2;
+  top: 85%;
+  right: 3%;
+  background-color: #14bcef00;
+  border-radius: 30px;
+  font-weight: bold;
+  border-color: var(--color--white);
+  background-color: rgba(128, 128, 128, 0.507);
+}
+.slider__first .btn:hover{
+  transition: background-color 0.5s;
+  background-color: var(--color--blue2);
+  border: none;
+  box-shadow: 0px 0px 8px 7px rgba(247, 15, 15, 0.884);
+}
+.slider__first .owl-nav{
+  display: none;
+}
+.slider__first .owl-dots{
+  display: none;
+}
+
+.item-banner{
+  padding: 30px 0px;
+  margin: 0px;
+}
+.item-banner > div{
+  position: relative;
+}
+.item-banner button{
+  position: absolute;
+  z-index: 3;
+  top: 5%;
+  right: 5%;
+}
+.content__category > .container > .row{
+  background-color: var(--color--white);
+}
+.content__category > .container > .row > div{
+  height: 10em;
+}
+.item-banner__full{
+  position: relative;
+}
+.item-banner__full button{
+  position: absolute;
+  top: 75%;
+  right: 10%;
+}
+.slide-item{
+  position: relative;
+}
+.slide-item .owl-dots,.content__clients .owl-dots{
+  display: none;
+}
+.slide-item .owl-prev,.slide-item .owl-next{
+  position: absolute;
+}
+.slide-item .owl-prev span,.slide-item .owl-next span{
+  font-size: 66pt !important;
+  color: var(--color--blue);
+}
+.slide-item .owl-prev{
+  top:30%;
+  left: -6%;
+}
+.slide-item .owl-next{
+  top:30%;
+  right: -6%;
+}
+.content__clients{
+  background: url('../images/banner/nen.jpg') top center / cover no-repeat;
+}
+.content__clients .owl-nav{
+  display: none;
+}
+.content__clients img{
+  object-fit: cover;
+  width: 7em !important;
+  aspect-ratio: 1;
+}
+.content__blog img{
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+.content__mail{
+  background: url('../images/banner/nen3.jpg') top center / cover no-repeat;
+}
+.content__mail form{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.content__mail input{
+  width: 45em;
+}
+/* trademark */
+.trademark .container > div img{
+  object-fit: cover;
+}
+.trademark .owl-stage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color--white);
+}
+.trademark .owl-dots,.trademark .owl-nav{
+  display: none;
+}
+
+/* Tablet */
+@media( max-width:1024px){
+  .slider__first .btn {
+    top: 78%;
+  }
+  .item-banner__full button {
+    top: 69%;
+    right: 2%;
+}
+.slide-item .owl-next {
+  top: 30%;
+  right: 4%;
+}
+.slide-item .owl-prev {
+  top: 30%;
+  left: 4%;
+}
+.content__mail input {
+  width: 35em;
+}
+.content__blog .row .col-xl-4,.content__topProduct .row .col-xl-3{
+  width: 100%;
+}
+.row-gap {
+  row-gap: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+}
+/* Mobile */
+@media( max-width:767px){
+  .item-banner > .img-hover{
+    padding: 10px 0px;
+  }
+  .item-banner button {
+    top: 12%;
+}
+.slider__first .btn {
+  top: 62%;
+  font-size: 7pt;
+}
+.item-banner {
+  padding: 10px 0px;
+  margin: 0px;
+}
+.pro-header .title h3 {
+  width: 7em;
+}
+.pro-header .title h3 a{
+  font-size: 15pt;
+}
+.btn-2 {
+  font-size: 9pt;
+}
+.content__topProduct .pro-header .title h3 a {
+  font-size: 11pt;
+}
+.item-banner__full button {
+  top: 52%;
+  right: 2%;
+  font-size: 7pt;
+}
+.content__product-new .pro-header .title {
+  margin-right: 0px;
+}
+.content__mail input {
+  width: 20em;
+}
+}
+/* end */

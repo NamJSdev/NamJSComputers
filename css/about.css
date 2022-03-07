@@ -1,0 +1,25 @@
+:root {
+  --color--blue: #2172bdfb;
+  --color-black: rgba(39, 38, 38, 0.849);
+  --color--white: white;
+  --color--red: red;
+  --color--bgr1: #6db6fa1f;
+  --color--blue2: #14bdef;
+}
+/* end common */
+.about-content-extend i{
+  color: var(--color-black);
+  font-size: 20pt;
+}
+.trademark .container > div img{
+  object-fit: cover;
+}
+.trademark .owl-stage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color--white);
+}
+.trademark .owl-dots,.trademark .owl-nav{
+  display: none;
+}

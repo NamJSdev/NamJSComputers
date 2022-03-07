@@ -1,0 +1,63 @@
+:root {
+  --color--blue: #2172bdfb;
+  --color-black: rgba(39, 38, 38, 0.849);
+  --color--white: white;
+  --color--red: red;
+  --color--bgr1: #6db6fa1f;
+  --color--blue2: #14bdef;
+}
+/* end common */
+.blog__content .nav-link {
+  display: block;
+  padding: 0px;
+}
+.blog__content i{
+  color: var(--color-black);
+}
+.note-blog{
+  padding-left: 50px;
+}
+.note-blog > div{
+  background-color: var(--color--bgr1);
+  min-height: 5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-left: 5px solid var(--color--blue2);
+  padding: 0px 20px;
+}
+.badge-cir-white{
+  background-color: var(--color--white);
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  padding: 13px 0px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--color-black);
+}
+.badge-cir-white:hover{
+  background-color: var(--color--blue);
+  color: var(--color--white);
+}
+.comments img{
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 20px;
+  width: 8em;
+}
+.comment__content{
+  position: relative;
+}
+.reply-comment{
+  position: absolute;
+  right: 8%;
+  top: 2%;
+  cursor: pointer;
+}
+.reply-comment:hover > i{
+  color: var(--color--blue2);
+}
+#exampleFormControlTextarea1{
+  min-height: 15em;
+}
